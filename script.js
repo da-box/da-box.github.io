@@ -536,3 +536,19 @@ THREE.BAS.PhongAnimationMaterial.prototype._concatVertexShader = function () {
 		"}"
 	].join("\n");
 };
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  var logo = document.querySelector('.logo');
+
+  logo.addEventListener('mouseenter', function() {
+    logo.classList.add('rotate');
+  });
+
+  logo.addEventListener('animationend', function() {
+    logo.classList.remove('rotate');
+  });
+});
