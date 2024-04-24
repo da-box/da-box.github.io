@@ -4,7 +4,7 @@ var mControls;
 
 var mScene;
 
-var mParticleCount = 100000; // <-- change this number!
+var mParticleCount = 50000; // 
 var mParticleSystem;
 
 var mTime = 0.0;
@@ -170,7 +170,7 @@ function initParticleSystem() {
 		{
 			diffuse: 0xffffff, // color
 			specular: 0xfbe087,
-			shininess: 80
+			shininess: 90
 		}
 	);
 
